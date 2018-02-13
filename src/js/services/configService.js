@@ -111,7 +111,7 @@ angular.module('canoeApp.services').factory('configService', function (storageSe
       if (configCache.wallet) {
         var debug = false;
         if (debug) console.log('configCache.wallet.settings.alternativeIsoCode = ' + configCache.wallet.settings.alternativeIsoCode)
-        //if (!configCache.wallet.settings.alternativeIsoCode){ // Do like when Onbording, with not alternative currency set
+        //if (!configCache.wallet.settings.alternativeIsoCode){ // Do like when Onbording, with no alternative currency set
         //  console.log('Pretending there is no alternativeIsoCode in wallet = ' + configCache.wallet.settings.alternativeIsoCode)
         //  configCache.wallet.settings.alternativeIsoCode = undefined
         //}
